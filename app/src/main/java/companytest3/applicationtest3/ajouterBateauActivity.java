@@ -36,7 +36,7 @@ public class ajouterBateauActivity extends AppCompatActivity implements View.OnC
 
     Button buttonAjouter;
 
-    public static final String ROOT_URL = "http://gr05.sio-cholet.fr/PPE4Symfony/Tobat/Symfony/web/app_dev.php/";
+    public static final String ROOT_URL = "http://gr08.sio-cholet.fr/PPE4Symfony/Tobat/Symfony/web/app_dev.php/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

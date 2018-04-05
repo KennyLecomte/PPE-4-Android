@@ -92,6 +92,29 @@
             android:id="@+id/categorieSociale"
             />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Bateau(x)"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bateau1"
+            />
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bateau2"
+            />
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bateau3"
+            />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
