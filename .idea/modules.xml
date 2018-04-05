@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ApplicationTest3.iml" filepath="$PROJECT_DIR$/ApplicationTest3.iml" />
+      <module fileurl="file://C:\wamp64\www\PPE-4-Android\ApplicationTest3.iml" filepath="C:\wamp64\www\PPE-4-Android\ApplicationTest3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PPE-4-Android.iml" filepath="$PROJECT_DIR$/PPE-4-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\wamp64\www\PPE-4-Android\app\app.iml" filepath="C:\wamp64\www\PPE-4-Android\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,6 @@
 package companytest3.applicationtest3;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Spinner spinnerTranchesAge;
     CheckBox checkBoxVip;
     Spinner spinnerCategorieSociale;
+    Button ajouterBateau;
 
     Button buttonRegister;
 
@@ -55,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinnerTranchesAge = (Spinner) findViewById(R.id.trancheAge);
         checkBoxVip = (CheckBox) findViewById(R.id.vip);
         spinnerCategorieSociale = (Spinner) findViewById(R.id.categorieSociale);
+        ajouterBateau = (Button) findViewById(R.id.ajouterBateau);
 
         buttonRegister = (Button) findViewById(R.id.buttonRegister);
         buttonRegister.setOnClickListener(this);
@@ -66,6 +69,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         getJSON("http://gr05.sio-cholet.fr/getBudgets.php");
         getJSON("http://gr05.sio-cholet.fr/getCategoriesSociales.php");
+
+        ajouterBateau.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, ajouterBateauActivity.class);
+                startActivity(i);
+            }
+        });
     }
 
     private void insertUser()
